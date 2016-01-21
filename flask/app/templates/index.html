@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>DataBase Object</h1>
+{% for post in posts %}
+<p><b>ID : </b>{{post.Id}}</p>
+<p><b>GroupID : </b>{{post.GroupId}}<p>
+<p><b>Name : </b>{{post.Name}}<p>
+<p><b>Data : </b>{{post.Data}}</p>
+<p><b>User : </b>{{post.User}}</p>
+<p><b>Type : </b>{{post.Type}}</p>
+<p><b>Content : </b>{{post.Content}}</p>
+{% endfor %}
+{% endblock %}
+ 
