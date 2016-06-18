@@ -1,2 +1,0 @@
-CSRF_ENABLED = True
-SECRET_KEY = "GfKy3ue_WaD_SoLo-d47d..42"
